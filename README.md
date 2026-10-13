@@ -10,3 +10,7 @@ A high-performance, low-cost serverless static website hosted on Amazon S3 and d
 ---
 
 ## Architecture Overview
+
+**Storage:** Amazon S3 (Static Website Hosting)
+- **CDN:** Amazon CloudFront (Global edge caching)
+- **CI/CD:** GitHub Actions (Automated build & sync on `push` to `main`)
